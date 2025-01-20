@@ -1,1 +1,209 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title></title><meta http-equiv="refresh" content="0;url= homu.html" /></head><body></body></html>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICHIZ | ホーム</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-white">
+<!-- 固定ヘッダー -->
+<header class="fixed w-full top-0 bg-white shadow-lg z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-20">
+            <!-- ロゴ -->
+            <div class="flex items-center">
+                <a href="index.html" class="flex items-center">
+                    <img src="assets/images/common/logo.png" alt="ロゴ" class="h-12 w-auto md:h-16">
+                </a>
+            </div>
+
+            <!-- PCナビゲーション -->
+            <nav class="hidden lg:flex items-center space-x-8">
+                <a href="index.html" class="text-gray-800 hover:text-gray-600">ホーム</a>
+
+                <!-- ICHIZについて -->
+                <div class="relative group">
+                    <button class="text-gray-800 hover:text-gray-600 flex items-center">
+                        ICHIZについて
+                        <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="absolute hidden group-hover:block w-48 bg-white shadow-lg py-2 mt-2">
+                        <a href="about/message.html" class="block px-4 py-2 hover:bg-gray-100">代表メッセージ</a>
+                        <a href="about/overview.html" class="block px-4 py-2 hover:bg-gray-100">施設概要</a>
+                    </div>
+                </div>
+
+                <!-- 事業内容 -->
+                <div class="relative group">
+                    <button class="text-gray-800 hover:text-gray-600 flex items-center">
+                        事業内容
+                        <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="absolute hidden group-hover:block w-48 bg-white shadow-lg py-2 mt-2">
+                        <a href="services/school.html" class="block px-4 py-2 hover:bg-gray-100">ICHIZスクール</a>
+                        <a href="services/gallery.html" class="block px-4 py-2 hover:bg-gray-100">フォトギャラリー</a>
+                    </div>
+                </div>
+
+                <!-- 電動車椅子サッカー -->
+                <div class="relative group">
+                    <button class="text-gray-800 hover:text-gray-600 flex items-center">
+                        電動車椅子サッカー
+                        <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="absolute hidden group-hover:block w-48 bg-white shadow-lg py-2 mt-2">
+                        <a href="pwc-football/about.html" class="block px-4 py-2 hover:bg-gray-100">電動車椅子サッカーとは</a>
+                        <a href="pwc-football/saga/infinity-samurai.html" class="block px-4 py-2 hover:bg-gray-100">Infinity侍</a>
+                        <a href="pwc-football/saga/saga2024.html" class="block px-4 py-2 hover:bg-gray-100">SAGA2024</a>
+                        <a href="pwc-football/saga/gallery.html" class="block px-4 py-2 hover:bg-gray-100">フォトギャラリー</a>
+                        <a href="pwc-football/saga/saga-prefecture.html" class="block px-4 py-2 hover:bg-gray-100">佐賀県協会</a>
+                        <a href="pwc-football/links.html" class="block px-4 py-2 hover:bg-gray-100">リンク集</a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- モバイルメニューボタン -->
+            <div class="lg:hidden flex items-center">
+                <button id="mobile-menu-button" class="text-gray-800" aria-label="メインメニュー">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- モバイルメニュー -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-white">
+        <div class="px-4 pt-2 pb-3 space-y-1">
+            <a href="index.html" class="block px-3 py-2 text-gray-800 hover:bg-gray-100">ホーム</a>
+
+            <!-- モバイル: ICHIZについて -->
+            <div class="py-2">
+                <div class="px-3 py-2 font-medium text-gray-800">ICHIZについて</div>
+                <a href="about/message.html" class="block px-6 py-2 text-gray-600 hover:bg-gray-100">代表メッセージ</a>
+                <a href="about/overview.html" class="block px-6 py-2 text-gray-600 hover:bg-gray-100">施設概要</a>
+            </div>
+
+            <!-- モバイル: 事業内容 -->
+            <div class="py-2">
+                <div class="px-3 py-2 font-medium text-gray-800">事業内容</div>
+                <a href="services/school.html" class="block px-6 py-2 text-gray-600 hover:bg-gray-100">ICHIZスクール</a>
+                <a href="services/gallery.html" class="block px-6 py-2 text-gray-600 hover:bg-gray-100">フォトギャラリー</a>
+            </div>
+
+            <!-- モバイル: 電動車椅子サッカー -->
+            <div class="py-2">
+                <div class="px-3 py-2 font-medium text-gray-800">電動車椅子サッカー</div>
+                <a href="pwc-football/about.html" class="block px-6 py-2 text-gray-600 hover:bg-gray-100">電動車椅子サッカーとは</a>
+                <a href="pwc-football/saga/infinity-samurai.html" class="block px-6 py-2 text-gray-600 hover:bg-gray-100">Infinity侍</a>
+                <a href="pwc-football/saga/saga2024.html" class="block px-6 py-2 text-gray-600 hover:bg-gray-100">SAGA2024</a>
+                <a href="pwc-football/saga/gallery.html" class="block px-6 py-2 text-gray-600 hover:bg-gray-100">フォトギャラリー</a>
+                <a href="pwc-football/saga/saga-prefecture.html" class="block px-6 py-2 text-gray-600 hover:bg-gray-100">佐賀県協会</a>
+                <a href="pwc-football/links.html" class="block px-6 py-2 text-gray-600 hover:bg-gray-100">リンク集</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- ヘッダーの高さ分のスペーサー -->
+<div class="h-20"></div>
+
+<!-- メインビジュアル -->
+<div class="relative min-h-[500px] bg-gray-100 overflow-hidden">
+    <div class="slideshow-container absolute inset-0">
+        <div class="slide fade">
+            <img src="assets/images/main/1.jpg" alt="メインビジュアル1" class="w-full h-full object-cover">
+        </div>
+        <div class="slide fade">
+            <img src="assets/images/main/2.png" alt="メインビジュアル2" class="w-full h-full object-cover">
+        </div>
+        <div class="slide fade">
+            <img src="assets/images/main/3.png" alt="メインビジュアル3" class="w-full h-full object-cover">
+        </div>
+    </div>
+</div>
+
+<!-- メインコンテンツ -->
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <!-- メインメッセージ -->
+    <div class="text-center mb-16">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">人生の本質から福祉のあり方を考える</h1>
+        <div class="w-24 h-1 bg-gray-800 mx-auto"></div>
+    </div>
+    <div class="prose prose-lg mx-auto">
+        <p class="mb-6">人生の本質、その重要な要素が「ひとから感謝される喜び」だと、ICHIZは考えます。</p>
+        <p class="mb-6">地域の人々から愛され、地域の役に立ち、地域の人々から感謝される存在で在れたら、それはとても幸福な状態ではないでしょうか。</p>
+        <p class="mb-6">しかし、我々がケアを提供して介護が必要な状態の方々から感謝されるだけで完結してしまうのでは、本質的「地域貢献」が出来ている事にはならないと思います。</p>
+        <p class="mb-6">我々が目指している状態は、事業所だけではなく、地域も、介護が必要な方々も、他者から感謝される喜びを感じる「プラスの循環連鎖」によって地域全体が活性化するシステムです。</p>
+    </div>
+</main>
+
+<!-- フッター -->
+<footer class="bg-gray-800 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- 会社情報 -->
+            <div>
+                <h3 class="text-xl font-bold mb-4">ICHIZ</h3>
+                <p class="text-gray-300">
+                    〒849-0937<br>
+                    佐賀県佐賀市鍋島６丁目１−１８<br>
+                    TEL: 0952-65-3509
+                </p>
+            </div>
+
+            <!-- サイトマップ -->
+            <div>
+                <h3 class="text-xl font-bold mb-4">サイトマップ</h3>
+                <ul class="space-y-2 text-gray-300">
+                    <li><a href="index.html" class="hover:text-white">ホーム</a></li>
+                    <li><a href="about/overview.html" class="hover:text-white">施設概要</a></li>
+                    <li><a href="services/school.html" class="hover:text-white">ICHIZスクール</a></li>
+                    <li><a href="pwc-football/about.html" class="hover:text-white">電動車椅子サッカー</a></li>
+                </ul>
+            </div>
+
+            <!-- SNSリンク -->
+            <div>
+                <h3 class="text-xl font-bold mb-4">ソーシャルメディア</h3>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-300 hover:text-white">
+                        <span class="sr-only">Facebook</span>
+                        <!-- Facebook icon -->
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400">
+            <p>&copy; 2024 ICHIZ. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="assets/script/main.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  // ナビゲーションの動作
+  document.addEventListener('DOMContentLoaded', function() {
+    // // モバイルメニューの開閉
+    // const mobileMenuButton = document.getElementById('mobile-menu-button');
+    // const mobileMenu = document.getElementById('mobile-menu');
+    //
+    // mobileMenuButton.addEventListener('click', () => {
+    //   mobileMenu.classList.toggle('hidden');
+    // });
+  });
+</script>
+</html>
