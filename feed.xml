@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:305C97CB-4163-4838-BA35-FAFE65CFE5E1</id>
+ <title>Page list Atom feed</title>
+ <updated>2017-04-03T14:06:30+09:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:C586B2FA-A768-4367-B2C2-B663572105BC</id>
+  <title>　ホーム　</title>
+  <title xmlns="urn:iweb:">　ホーム　</title>
+  <in-navbar xmlns="urn:iweb:">C586B2FA-A768-4367-B2C2-B663572105BC</in-navbar>
+  <link rel="alternate" href="homu.html"/>
+  <updated>2017-04-03T14:06:30.001+09:00</updated>
+  <content>　ホーム　</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:8E378EF5-FD81-4708-879E-368F5F41C592</id>
+  <title>　ケアビレッジ鍋島　　</title>
+  <title xmlns="urn:iweb:">　ケアビレッジ鍋島　　</title>
+  <in-navbar xmlns="urn:iweb:">8E378EF5-FD81-4708-879E-368F5F41C592</in-navbar>
+  <link rel="alternate" href="keabirejji_guo_dao.html"/>
+  <updated>2017-04-03T14:06:30.002+09:00</updated>
+  <content>　ケアビレッジ鍋島　　</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:8809705E-A0C4-4978-9766-38106355011A</id>
+  <title>私達がお伺い致します　　　　</title>
+  <title xmlns="urn:iweb:">私達がお伺い致します　　　　</title>
+  <in-navbar xmlns="urn:iweb:">8809705E-A0C4-4978-9766-38106355011A</in-navbar>
+  <link rel="alternate" href="si_dagao_cii_zhishimasu.html"/>
+  <updated>2017-04-03T14:06:30.003+09:00</updated>
+  <content>私達がお伺い致します　　　　</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:1CE7FF5C-BF5E-438D-BE8E-AE97F202166F</id>
+  <title>ICHIZスクール　</title>
+  <title xmlns="urn:iweb:">ICHIZスクール　</title>
+  <in-navbar xmlns="urn:iweb:">1CE7FF5C-BF5E-438D-BE8E-AE97F202166F</in-navbar>
+  <link rel="alternate" href="ICHIZsukuru.html"/>
+  <updated>2017-04-03T14:06:30.004+09:00</updated>
+  <content>ICHIZスクール　</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:B19D35E5-865B-4746-9FA6-4332E76F140E</id>
+  <title> 　 99.9991754% </title>
+  <title xmlns="urn:iweb:"> 　 99.9991754% </title>
+  <in-navbar xmlns="urn:iweb:">B19D35E5-865B-4746-9FA6-4332E76F140E</in-navbar>
+  <link rel="alternate" href="99.9991754.html"/>
+  <updated>2017-04-03T14:06:30.005+09:00</updated>
+  <content> 　 99.9991754% </content>
+ </entry>
+ <entry>
+  <id>urn:iweb:5AEA8047-B3E6-4DE8-9D9B-927AFC465C46</id>
+  <title>　　 電動車椅子サッカー　　　</title>
+  <title xmlns="urn:iweb:">　　 電動車椅子サッカー　　　</title>
+  <in-navbar xmlns="urn:iweb:">5AEA8047-B3E6-4DE8-9D9B-927AFC465C46</in-navbar>
+  <link rel="alternate" href="dian_dong_che_yi_zisakka.html"/>
+  <updated>2017-04-03T14:06:30.006+09:00</updated>
+  <content>　　 電動車椅子サッカー　　　</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:85286D92-6DC3-4166-9131-2F072588A087</id>
+  <title>　ご存知ですか？　　</title>
+  <title xmlns="urn:iweb:">　ご存知ですか？　　</title>
+  <in-navbar xmlns="urn:iweb:">85286D92-6DC3-4166-9131-2F072588A087</in-navbar>
+  <link rel="alternate" href="go_cun_zhidesuka.html"/>
+  <updated>2017-04-03T14:06:30.007+09:00</updated>
+  <content>　ご存知ですか？　　</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:F51108BD-45A5-48A2-BD5A-024FCCD74F6F</id>
+  <title> 　　  Photos  　</title>
+  <title xmlns="urn:iweb:"> 　　  Photos  　</title>
+  <in-navbar xmlns="urn:iweb:">F51108BD-45A5-48A2-BD5A-024FCCD74F6F</in-navbar>
+  <link rel="alternate" href="Photos.html"/>
+  <updated>2017-04-03T14:06:30.008+09:00</updated>
+  <content> 　　  Photos  　</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:E21EF7FD-5B24-4BD7-93E5-542EF58C5E53</id>
+  <title>　　　　　　　代表者より　</title>
+  <title xmlns="urn:iweb:">　　　　　　　代表者より　</title>
+  <in-navbar xmlns="urn:iweb:">E21EF7FD-5B24-4BD7-93E5-542EF58C5E53</in-navbar>
+  <link rel="alternate" href="dai_biao_zheyori.html"/>
+  <updated>2017-04-03T14:06:30.009+09:00</updated>
+  <content>　　　　　　　代表者より　</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:D0FD252F-03BB-48C8-849D-4D4353138057</id>
+  <title>  連絡先</title>
+  <title xmlns="urn:iweb:">  連絡先</title>
+  <in-navbar xmlns="urn:iweb:">D0FD252F-03BB-48C8-849D-4D4353138057</in-navbar>
+  <link rel="alternate" href="lian_luo_xian.html"/>
+  <updated>2017-04-03T14:06:30.010+09:00</updated>
+  <content>  連絡先</content>
+ </entry>
+</feed>
